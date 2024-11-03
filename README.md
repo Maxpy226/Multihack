@@ -4,6 +4,7 @@ Skid hacking tool
 
 Multihack Release Alpha 1.0 by Maxpy226 and EpicNori. 
 
+I really recommend to download the terminal app from Microsoft for the best experience.
 
 Instructions:
 
@@ -17,9 +18,9 @@ Make a server, select a channel in the server and go to channel settings. Then g
 
 
 
-Use the Prepare Ip logger function in Multihack to auto copy the logger and config file to the multi hack folder. You can get there by selecting "Hacks" in the menu.
+Use the Prepare Ip logger function in Multihack to auto copy the logger and config file to the \output directory. You can get there by selecting "Hacks" in the menu.
 
-Then go into the loggersettings.json file and copy the webhook url into the URL key.
+Then go into the output directory,l then open the loggersettings.json file and copy the webhook url into the URL key.
 
 Now it's ready.
 
@@ -35,9 +36,6 @@ But remember ITS FOR EDUCATIONAL PURPOSES ONLY. DO NOT ACTUALLY SPAM SOMEONE FUL
 
 For more guidelines, see the Guidelines.md file.
 
-This is the open source zip version, so you need to run the RUNBEFOREUSE.bat file at least once. Exe format with Installers will be coming soon.
-
-
 How to use PMP:
 
 Go into Multihack and go to Chat room (PMP).
@@ -50,6 +48,8 @@ Then input the name for the server.
 
 This only needs to be done on one computer that is the server.
 
+If the terminal windows is closed, the server will shut down.
+
 Client Instructions:
 
 Press start PMP client.
@@ -61,3 +61,5 @@ After you choose the one you want, enter your username, and now you can start ch
 When you first launch PMP (chat room) it could give you a security pop-up because it needs to open ports.
 
 Note that this only works if the devices are on the same network.
+
+This is the open source zip version, so you need to run the RUNBEFOREUSE.bat file at least once. Exe format with Installers will be coming soon.
