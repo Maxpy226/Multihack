@@ -15,4 +15,4 @@ dst2 = currentpath+rf'\output\loggersettings.json'
 shutil.copy(src, dst)
 shutil.copy(src2, dst2)
 
-input(r'Ip logger copied to \out dir')
+input(r'Ip logger copied to \output dir')
