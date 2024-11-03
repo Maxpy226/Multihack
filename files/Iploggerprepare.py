@@ -7,8 +7,8 @@ user = os.getlogin()
 src = currentpath+r'\files\iplogger\Iplogger.py'
 src2 = currentpath+r'\files\iplogger\loggersettings.json'
 # Path to the destination (can be a directory or file path)
-dst = currentpath+rf'\out\Iplogger.py'
-dst2 = currentpath+rf'\out\loggersettings.json'
+dst = currentpath+rf'\output\Iplogger.py'
+dst2 = currentpath+rf'\output\loggersettings.json'
 
 
 # Copy the file
