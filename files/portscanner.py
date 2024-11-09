@@ -43,7 +43,7 @@ def scan_ports(ip, port_range):
     return open_ports
 
 if __name__ == "__main__":
-    target_ip = input("Gib die Ziel-IP ein: ")
+    target_ip = input("IP: ")
     port_range = (1, 600)  # Scanne alle Ports (1-65535)
     scan_ports(target_ip, port_range)
     input()
