@@ -67,19 +67,19 @@ while True:
         ║ 
         ╠════(4) Chat Room (pmp) 
         ║ 
-        ╠══════(6) Restart    
+        ╠══════(5) Restart    
         ║
-        ╠═══════(7) Quit  
+        ╠═══════(6) Quit  
         ║
         ╚═══════>''')
     
     
     
-    if command == '6':
+    if command == '5':
         os.system(rf'start /min {filepath}\restart.py')   #restart command
         exit()
          
-    elif command == '7':
+    elif command == '6':
             exit()
 
     elif command == '1': #internet subfolder
