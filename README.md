@@ -2,7 +2,7 @@ THIS TOOL IS ONLY MADE FOR EDUCATIONAL PURPOSES ONLY.
 
 Skid hacking tool
 
-Multihack Release Alpha 1.0 by Maxpy226 and EpicNori. 
+Multihack Release  v1.0.0 by Maxpy226 and EpicNori. 
 
 I really recommend to download the terminal app from Microsoft for the best experience.
 
