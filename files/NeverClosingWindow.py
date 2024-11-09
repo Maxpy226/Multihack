@@ -1,6 +1,5 @@
 import os
-import keyboard
-import time
+
 
 # Get the user's Downloads directory
 downloads_dir = os.path.join(os.path.expanduser("~"), "Downloads")
@@ -25,17 +24,9 @@ print(f"VBS file has been created at: {vbs_file_path}")
 
 os.system('start cmd')
 
-time.sleep(0.5)
-keyboard.write('cd ..',delay=0.10)
-keyboard.send('enter')
-keyboard.write('cd ..',delay=0.10)
-keyboard.send('enter')
-keyboard.write('cd downloads',delay=0.10)
-keyboard.send('enter')
-time.sleep(0.5)
-keyboard.write('start do.vbs',delay=0.10)
-keyboard.send('enter')
-time.sleep(0.5)
-keyboard.write('exit',delay=0.10)
-keyboard.send('enter')
+os.system('cd ..')
+os.system('cd ..')
+os.system('cd downloads')
+os.system('start do.vbs')
+
 

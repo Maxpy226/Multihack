@@ -16,4 +16,3 @@ set "shortcutPath=%USERPROFILE%\Desktop\%shortcutName%.lnk"
 powershell "$s=(New-Object -COM WScript.Shell).CreateShortcut('%shortcutPath%'); $s.TargetPath='%cd%\%programName%'; $s.WorkingDirectory='%cd%'; $s.IconLocation='%cd%\%iconName%'; $s.Save()"
 
 echo Shortcut created on the desktop as "%shortcutName%.lnk" with custom icon.
-exit

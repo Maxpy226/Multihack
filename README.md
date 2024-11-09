@@ -6,6 +6,10 @@ Multihack Release Alpha 1.0 by Maxpy226 and EpicNori.
 
 I really recommend to download the terminal app from Microsoft for the best experience.
 
+You need to install Npcap to use the ipscanner and other stuff. You can get it here:  https://npcap.com/
+
+THIS PROGRAM MAY NOT WORK IF YOU USE ONEDRIVE.
+
 Instructions:
 
 How to use the Ip logger:
